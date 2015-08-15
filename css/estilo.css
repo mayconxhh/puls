@@ -1,16 +1,30 @@
 @font-face {
+<<<<<<< HEAD
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?-5sae9l');
 	src:url('../fonts/icomoon.eot?#iefix-5sae9l') format('embedded-opentype'),
 		url('../fonts/icomoon.ttf?-5sae9l') format('truetype'),
 		url('../fonts/icomoon.woff?-5sae9l') format('woff'),
 		url('../fonts/icomoon.svg?-5sae9l#icomoon') format('svg');
+=======
+	font-family: 'puls4';
+	src:url('fuentes/puls4.eot?-ul59v1');
+	src:url('fuentes/puls4.eot?#iefix-ul59v1') format('embedded-opentype'),
+		url('fuentes/puls4.ttf?-ul59v1') format('truetype'),
+		url('fuentes/puls4.woff?-ul59v1') format('woff'),
+		url('fuentes/puls4.svg?-ul59v1#puls4') format('svg');
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 	font-weight: normal;
 	font-style: normal;
 }
 
+<<<<<<< HEAD
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
+=======
+.icon {
+	font-family: 'puls4';
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -23,6 +37,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
 .icon-triangle-down:before {
 	content: "\f05b";
 	color: #DD4F24;
@@ -54,19 +69,47 @@
 
 
 
+=======
+.icon-comentario:before {
+	content: "\e0ed";
+}
+.icon-f-arriba:before {
+	content: "\f05b";
+}
+.icon-f-abajo:before {
+	content: "\f0aa";
+}
+.icon-lapiz:before {
+	content: "\e600";
+}
+.icon-estrella:before {
+	content: "\e601";
+}
+
+
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 a {
 	color: #22BCE0;
 }
 
+<<<<<<< HEAD
 aside{
 	display:none;
 }
+=======
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 
 body {
 	background: #EEEEEE;
 	font-family: 'Open Sans',Arial;
 	font-size: 16px;
 }
+<<<<<<< HEAD
+=======
+figure {
+	margin: 0;
+}
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 
 footer {
 	color: rgba(255,255,255,0.7);
@@ -100,6 +143,7 @@ header {
 
 header figure {
 	float: left;
+<<<<<<< HEAD
 	margin: 0;
 }
 
@@ -127,6 +171,23 @@ header #logo img {
 header #logo img:hover {
 	-webkit-transform:rotate(360deg);
 
+=======
+}
+
+header h1 {
+
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0.3em 70px 0 0;
+
+}
+
+header #logo img {
+	width: 52px;
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 }
 
 header #avatar {
@@ -143,7 +204,11 @@ header #avatar img {
 
 nav {
 	background: #80BCA3;
+<<<<<<< HEAD
 	padding: 0 5em 0 0;
+=======
+	padding: 0 0.5em;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 	position: relative;
 	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
 }
@@ -158,6 +223,7 @@ nav ul li {
 	margin: 0 1em 0 0;
 }
 
+<<<<<<< HEAD
 nav ul li a:hover {
 	background: #343B54;
 }
@@ -167,11 +233,21 @@ nav ul li a {
 	display: block;
 	padding: 0.5em;
 	-webkit-transition:0.3s;
+=======
+nav ul li a {
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 }
 
 nav ul #publicar_nav {
 	position: absolute;
+<<<<<<< HEAD
 	top: -0.3em;
+=======
+	top: -0.4em;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 	right: 0;
 }
 
@@ -179,12 +255,18 @@ nav ul #publicar_nav a {
 	font-style: italic;		
 	text-decoration: none;
 	background: #22BCE0;
+<<<<<<< HEAD
 	padding: 0.8em 0.5em 0.8em 2.5em;
 	border-radius: 5px; 
+=======
+	padding: 0.8em 0.5em;
+	border-radius: 5px;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 }
 
+<<<<<<< HEAD
 nav ul #publicar_nav a:before {
 	position: absolute;
 	top: .8em;
@@ -197,6 +279,8 @@ nav ul #publicar_nav a:hover:before{
 	left: .5em;	
 }
 
+=======
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 #contenido {
 	margin: 1em;
 }
@@ -262,6 +346,7 @@ nav ul #publicar_nav a:hover:before{
 	width: 95%;
 }
 
+<<<<<<< HEAD
 #contenido .item .votacion a {
 	text-decoration: none;
 }
@@ -299,4 +384,8 @@ nav ul #publicar_nav a:hover:before{
 	aside video{
 		width: 100%;
 	}
+=======
+#contenido .item .votacion .comentarios_item, #contenido .item .votacion .guardar_item {
+	float: right;
+>>>>>>> 30dd1035ab91583b07157e9d32234a467fd4b2dc
 }
